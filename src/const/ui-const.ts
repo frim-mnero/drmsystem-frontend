@@ -74,3 +74,14 @@ export const UI_NAMES = {
     [LanguageCodes.English]: 'No'
   }
 }
+
+export const ANCHORS = {
+  DASHBOARD: {
+    [LanguageCodes.Russian]: 'Дашборд',
+    [LanguageCodes.English]: 'Dashboard'
+  },
+  ANIMALS: {
+    [LanguageCodes.Russian]: 'Животные',
+    [LanguageCodes.English]: 'Animals'
+  }
+}

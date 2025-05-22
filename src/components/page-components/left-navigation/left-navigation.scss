@@ -1,0 +1,26 @@
+@import '../../../const/const.scss';
+
+.left-navigation-list {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  padding: 40px 30px;
+
+  .left-navigation-list-item {
+    list-style: none;
+
+    .left-navigation-list-link {
+      text-decoration: none;
+
+      &:hover {
+        color: $font-color-standart;
+      }
+    }
+
+    .left-navigation-list-link-active {
+      color: $main-color;
+      text-decoration: none;
+    }
+  }
+}
