@@ -3,7 +3,8 @@ import { LanguageCodes } from './languages-const';
 export enum NameSpace {
   User = 'user',
   Toast = 'toast',
-  Modal = 'modal'
+  Modal = 'modal',
+  Animals = 'animals'
 }
 
 export enum AuthStatuses {

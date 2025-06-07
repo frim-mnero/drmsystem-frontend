@@ -19,7 +19,8 @@ export enum APIRoutes {
   Repass = '/repass',
   NewPassword = '/newpassword',
   Logout = '/logout',
-  Refresh = '/refresh'
+  Refresh = '/refresh',
+  Animals = '/animals'
 }
 
 export enum APIActions {
@@ -29,7 +30,8 @@ export enum APIActions {
   Repass = 'repass',
   NewPassword = 'newPassword',
   Logout = 'logout',
-  Refresh = 'refresh'
+  Refresh = 'refresh',
+  AnimalsList = 'animals'
 }
 
 export const API_MESSAGES = {

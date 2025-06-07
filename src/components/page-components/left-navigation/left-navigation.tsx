@@ -14,16 +14,16 @@ function LeftNavigation() {
   const languageCode = useAppSelector(getLanguageCode);
 
   //Functions
-  const showLinkClassname = ({ isActive }: PageActivityStatus) => isActive ? 'left-navigation-list-link-active' : 'left-navigation-list-link';
+  const showLinkClassname = ({ isActive }: PageActivityStatus) => isActive ? "left-navigation-list-link-active" : "left-navigation-list-link";
 
-  return (
-    <ul className='left-navigation-list'>
-      <li className='left-navigation-list-item'>
+  return(
+    <ul className="left-navigation-list">
+      <li className="left-navigation-list-item">
         <NavLink to={AppRoutes.Dashboard} className={showLinkClassname}>
           {ANCHORS.DASHBOARD[languageCode]}
         </NavLink>
       </li>
-      <li className='left-navigation-list-item'>
+      <li className="left-navigation-list-item">
         <NavLink to={AppRoutes.Animals} className={showLinkClassname}>
           {ANCHORS.ANIMALS[languageCode]}
         </NavLink>

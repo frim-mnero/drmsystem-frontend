@@ -1,0 +1,51 @@
+@import '../../../const/const.scss';
+
+.animals-list-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  list-style: none;
+  padding: 20px;
+  background: $bg-grey-superlight-color;
+  border-radius: 10px;
+  font-size: $font-size-standart;
+
+  &-nickname {
+    min-width: 200px;
+    flex-grow: 1;
+  }
+
+  &-gender {
+    width: 50px;
+    text-align: center;
+  }
+
+  &-type {
+    width: 150px;
+  }
+
+  &-status {
+    width: 250px;
+  }
+
+  &-raised {
+    width: 150px;
+  }
+
+  &-debt {
+    width: 150px;
+  }
+
+  .funds-not-collected {
+    color: $wrong-color;
+  }
+
+  .funds-collected {
+    color: $correct-color;
+  }
+
+  .debt-is-paid {
+    text-decoration: line-through;
+    color: $font-color-light;
+  }
+}

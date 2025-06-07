@@ -33,6 +33,10 @@ export const META = {
     DASHBOARD: {
       [LanguageCodes.Russian]: 'Дашборд',
       [LanguageCodes.English]: 'Dashboard'
+    },
+    ANIMALS: {
+      [LanguageCodes.Russian]: "Животные",
+      [LanguageCodes.English]: "Animals"
     }
   }
 }

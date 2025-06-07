@@ -85,3 +85,10 @@ export const ANCHORS = {
     [LanguageCodes.English]: 'Animals'
   }
 }
+
+export const CURRENCIES = {
+  RUB: {
+    [LanguageCodes.Russian]: 'руб',
+    [LanguageCodes.English]: 'RUB'
+  }
+}
