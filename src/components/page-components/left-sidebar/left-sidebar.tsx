@@ -3,6 +3,7 @@ import React from 'react';
 import LeftNavigation from '../left-navigation/left-navigation';
 
 function LeftSidebar() {
+
   return (
     <nav className='left-sidebar'>
       <LeftNavigation />

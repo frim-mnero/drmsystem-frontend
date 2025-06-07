@@ -78,3 +78,10 @@ export const FORM_MESSAGES = {
   }
 };
 
+
+export const ANIMALS_MESSAGES = {
+  ANIMALS_LIST_IS_EMPTY: {
+    [LanguageCodes.Russian]: 'Список животных пуст',
+    [LanguageCodes.English]: 'Animals list is empty'
+  },
+}

@@ -9,6 +9,8 @@ type ContentPropsType = {
   children: JSX.Element[] | JSX.Element
 };
 
+
+
 function Content({ children }: ContentPropsType) {
   const authStatus = useAppSelector(getAuthorizationStatus);
   const isAuth = authStatus === AuthStatuses.Auth;
@@ -18,13 +20,13 @@ function Content({ children }: ContentPropsType) {
     return (
       <>
         <LeftSidebar />
-        <section className='app-content'>{children}</section>
+        <section className="app-content">{children} </section>
       </>
     );
   };
 
   return (
-    <main className='page-content'>
+    <main className="page-content">
       {isAuth ? renderPrivateContent() : children}
     </main>
   );
