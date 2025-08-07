@@ -11,6 +11,7 @@ import NewPasswordPage from '../../../pages/new-password-page/new-password-page'
 import PrivateRoute from '../private-route/private-route';
 import DashboardPage from '../../../pages/dashboard/dashboard-page';
 import AnimalsPage from '../../../pages/animals/animals-page'
+import AccountsPage from '../../../pages/accounts/accounts-page';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Route path={AppRoutes.NewPassword} element={<NewPasswordPage />} />
       <Route path={AppRoutes.Dashboard} element={<PrivateRoute><DashboardPage /></PrivateRoute>} />
       <Route path={AppRoutes.Animals} element={<PrivateRoute><AnimalsPage /></PrivateRoute>} />
+      <Route path={AppRoutes.Accounts} element={<PrivateRoute><AccountsPage /></PrivateRoute>} />
       <Route path={AppRoutes.NotFound} element={<NotFoundPage />} /> 
       <Route path='*' element={<NotFoundPage />} />
     </Routes>

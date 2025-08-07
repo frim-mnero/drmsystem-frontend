@@ -1,5 +1,4 @@
 import { AnimalGenderCodes, AnimalTypeCodes, AnimalStatusCodes } from '../const/animals-const';
-import { APIActions } from '../const/api-const';
 
 export type AnimalsProcessType = {
   animalsList: AnimalsListType | null

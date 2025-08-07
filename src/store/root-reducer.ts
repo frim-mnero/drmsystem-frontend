@@ -4,11 +4,13 @@ import { userProcess } from './processes/user-process/user-process';
 import { toastProcess } from './processes/toast-process/toast-process';
 import { modalProcess } from './processes/modal-process/modal-process';
 import { animalsProcces } from './processes/animals-process/animals-process';
+import { accountsProcces } from './processes/accounts-proccess/accounts-procces';
 
 export const rootReducer = combineReducers({
   [NameSpace.User]: userProcess.reducer,
   [NameSpace.Toast]: toastProcess.reducer,
   [NameSpace.Modal]: modalProcess.reducer,
-  [NameSpace.Animals]: animalsProcces.reducer
+  [NameSpace.Animals]: animalsProcces.reducer,
+  [NameSpace.Accounts]: accountsProcces.reducer
 });
 

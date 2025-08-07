@@ -28,6 +28,11 @@ function LeftNavigation() {
           {ANCHORS.ANIMALS[languageCode]}
         </NavLink>
       </li>
+      <li className="left-navigation-list-item">
+        <NavLink to={AppRoutes.Accounts} className={showLinkClassname}>
+          {ANCHORS.ACCOUNTS[languageCode]}
+        </NavLink>
+      </li>
     </ul>
   );
 }

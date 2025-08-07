@@ -4,7 +4,8 @@ export enum NameSpace {
   User = 'user',
   Toast = 'toast',
   Modal = 'modal',
-  Animals = 'animals'
+  Animals = 'animals',
+  Accounts = 'accounts'
 }
 
 export enum AuthStatuses {

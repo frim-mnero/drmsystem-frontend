@@ -37,6 +37,10 @@ export const META = {
     ANIMALS: {
       [LanguageCodes.Russian]: "Животные",
       [LanguageCodes.English]: "Animals"
+    },
+    ACCOUNTS: {
+      [LanguageCodes.Russian]: "Счета",
+      [LanguageCodes.English]: "Accounts"
     }
   }
 }
