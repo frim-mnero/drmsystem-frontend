@@ -85,3 +85,10 @@ export const ANIMALS_MESSAGES = {
     [LanguageCodes.English]: 'Animals list is empty'
   },
 }
+
+export const ACCOUNTS_MESSAGES = {
+  ACCOUNTS_LIST_IS_EMPTY: {
+    [LanguageCodes.Russian]: 'Список счетов пуст',
+    [LanguageCodes.English]: 'Accounts list is empty'
+  },
+}

@@ -1,6 +1,6 @@
 @import '../../../const/const.scss';
 
-.accounts-list-item{
+.accounts-list-item {
   list-style: none;
   display: flex;
   justify-content: space-between;
@@ -9,7 +9,7 @@
   font-size: $font-size-standart;  
   border-radius: 10px;
    
-  &-balance{
+  &-balance {
     color: $correct-color;
   }
 }

@@ -5,7 +5,6 @@ import { AxiosInstance } from "axios";
 import { APIRoutes } from "../../const/api-const";
 import { AccountsListType } from "../../types/account-types";
 
-
 export const accountsListAction = createAsyncThunk<ApiResponseType<AccountsListType>, undefined, {
   dispatch: AppDispatchType;
   state: StateType;
@@ -18,6 +17,5 @@ export const accountsListAction = createAsyncThunk<ApiResponseType<AccountsListT
     const { data } = await api.get<ApiResponseType<AccountsListType>>(APIRoutes.Accounts);
 
     return data;
-    
   }
 );

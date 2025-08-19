@@ -13,7 +13,6 @@ function AccountsPage() {
   document.title = META.TITLE.ACCOUNTS[languageCode];
 
   return (
-    
     <>
       <Header />
       <Content>
@@ -21,7 +20,7 @@ function AccountsPage() {
       </Content>
       <Footer />
     </>
-  )
+  );
 }
 
 export default AccountsPage;

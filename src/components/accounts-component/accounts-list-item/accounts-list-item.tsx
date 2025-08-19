@@ -5,19 +5,24 @@ import { useAppSelector } from "../../../hooks";
 import { getLanguageCode } from "../../../store/processes/user-process/user-selectors";
 import { AccountsListItemType } from "../../../types/account-types";
 
-type AnimalListItemPropsType = {
-  accounts: AccountsListItemType;
+type AccountsListItemPropsType = {
+  account: AccountsListItemType;
 }
 
-function AccountsListItem({ accounts } : AnimalListItemPropsType){
+function AccountsListItem({ account } : AccountsListItemPropsType){
   const languageCode = useAppSelector(getLanguageCode);
 
-  return(
+  return (
     <li className="accounts-list-item">
-        <p className="accounts-list-item-name">{accounts.name}</p>
-        <p className="accounts-list-item-balance">{accounts.balance}<span className='account-list-item-currency'>{CURRENCIES.RUB[languageCode]}</span>.</p>
+      <div className="accounts-list-item-name">
+        {account.name}
+      </div>
+
+      <div className="accounts-list-item-balance">
+        {account.balance} <span className="account-list-item-currency">{CURRENCIES.RUB[languageCode]}.</span>
+      </div>
     </li>
-  )
+  );
 }
 
 export default AccountsListItem;
